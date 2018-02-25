@@ -5263,9 +5263,9 @@ react-scripts@1.0.14:
   optionalDependencies:
     fsevents "1.1.2"
 
-react-tag-cloud@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/react-tag-cloud/-/react-tag-cloud-1.0.1.tgz#3ea4f89117fd7d572020e49494f1154936f88792"
+react-tag-cloud@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/react-tag-cloud/-/react-tag-cloud-1.1.2.tgz#636eb8b3244528afe9d400337409d8a33c21eeb1"
   dependencies:
     d3-cloud "^1.2.4"
     react-measure "^2.0.2"

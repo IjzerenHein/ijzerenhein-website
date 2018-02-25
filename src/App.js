@@ -153,7 +153,7 @@ class App extends Component {
         <Anime 
           translateX={[
             {value: 0},
-            {value: 1500, duration: 3000}
+            {value: 5000, duration: 5000}
           ]}>
           <div className='app-slide' />
         </Anime>

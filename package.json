@@ -1,6 +1,6 @@
 {
   "name": "ijzerenhein-website",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "dependencies": {
     "animejs": "^2.2.0",
@@ -10,7 +10,7 @@
     "react-dom": "^16.0.0",
     "react-icons": "^2.2.7",
     "react-measure": "^2.0.2",
-    "react-tag-cloud": "^1.1.2"
+    "react-tag-cloud": "^1.2.0"
   },
   "devDependencies": {
     "react-scripts": "1.0.14"

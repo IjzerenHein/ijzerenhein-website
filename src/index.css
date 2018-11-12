@@ -77,6 +77,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b2b2b', end
 	text-align: right;
 }
 
+.footer {
+	text-align: center;
+}
+
 .icon { 
 	color: white;
 	opacity: 0.5;

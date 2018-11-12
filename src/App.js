@@ -149,6 +149,16 @@ class App extends Component {
             </Anime>
           </div>
           <AppWordCloud />
+          <Anime 
+            opacity={[0, 0.5]}
+            translateY={[100, 0]}
+            easing={'easeInOutQuad'}
+            duration={1000}
+            delay={7000}>
+            <div className='footer'>
+              <h2>KvK 72827645 - TAX NL165052727B02</h2>
+            </div>              
+          </Anime>
         </div>
         <Anime 
           translateX={[

@@ -1,13 +1,13 @@
 body {
 	background: #1a1a1a;
 	color: #ffffff;
- 	font-family: sans-serif;
+	font-family: sans-serif;
 	-webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    font-smooth: always;
- 	margin: 0;
- 	padding: 0;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	font-smooth: always;
+	margin: 0;
+	padding: 0;
 }
 
 h1 {
@@ -26,7 +26,7 @@ h2 {
 }
 
 .app-outer {
-	align-items: center; 
+	align-items: center;
 	bottom: 0;
 	display: flex;
 	flex-direction: column;
@@ -38,11 +38,25 @@ h2 {
 	top: 0;
 
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2b2b2b+0,000000+100 */
-background: #2b2b2b; /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover, #2b2b2b 0%, #000000 100%); /* FF3.6-15 */
-background: -webkit-radial-gradient(center, ellipse cover, #2b2b2b 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
-background: radial-gradient(ellipse at center, #2b2b2b 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b2b2b', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background: #2b2b2b; /* Old browsers */
+	background: -moz-radial-gradient(
+		center,
+		ellipse farthest-corner,
+		#2b2b2b 0%,
+		#000000 100%
+	); /* FF3.6-15 */
+	background: -webkit-radial-gradient(
+		center,
+		ellipse farthest-corner,
+		#2b2b2b 0%,
+		#000000 100%
+	); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(
+		ellipse at center,
+		#2b2b2b 0%,
+		#000000 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b2b2b', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .app-inner {
@@ -81,7 +95,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b2b2b', end
 	text-align: center;
 }
 
-.icon { 
+.icon {
 	color: white;
 	opacity: 0.5;
 	margin: 20px 4px;

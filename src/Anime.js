@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { Component } from 'react';
 import isEqual from 'lodash.isequal';
 import anime from 'animejs';
@@ -15,7 +16,7 @@ class Anime extends Component {
     this.children = {
       cur: children,
       prev: [],
-      next: []
+      next: [],
     };
   }
 
@@ -45,7 +46,7 @@ class Anime extends Component {
     this.children = {
       cur: children.filter(c => difChildren.indexOf(c) < 0),
       prev: childrenWereRemoved ? difChildren : this.children.prev,
-      next: !childrenWereRemoved ? difChildren : this.children.next
+      next: !childrenWereRemoved ? difChildren : this.children.next,
     };
 
     this.createAnime(nextProps);
@@ -58,8 +59,7 @@ class Anime extends Component {
     anime.remove(this.targets);
     delete animeProps.children;
 
-    if (typeof this.anime === undefined)
-      this.anime = anime(animeProps);
+    if (typeof this.anime === undefined) this.anime = anime(animeProps);
     else {
       this.anime = anime(animeProps);
     }
@@ -79,7 +79,8 @@ class Anime extends Component {
     return (
       <div style={style} className={className}>
         {cur.map((child, i) =>
-          React.cloneElement(child, { key: i, ref: this.addTarget }))}
+          React.cloneElement(child, { key: i, ref: this.addTarget })
+        )}
       </div>
     );
   }

@@ -28,7 +28,7 @@ class App extends Component {
 									easing={'easeInOutQuad'}
 									duration={1000}
 								>
-									<h2>Software ninja, App developer, creative</h2>
+									<h2>App & Software Developer, Creator</h2>
 								</Anime>
 							</div>
 						</Anime>

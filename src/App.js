@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import Anime from './Anime';
 import WordCloud from './WordCloud';
-import LinkedInIcon from 'react-icons/lib/fa/linkedin';
-import EnvelopeIcon from 'react-icons/lib/fa/envelope';
-import GithubIcon from 'react-icons/lib/fa/github';
+import { FaLinkedinIn, FaEnvelope, FaGithub } from 'react-icons/fa';
 
 class App extends Component {
 	render() {
@@ -37,13 +35,13 @@ class App extends Component {
 						<Anime opacity={[0, 1]} delay={7000} duration={10000}>
 							<div className="header-right-column">
 								<a href="https://www.linkedin.com/in/hein-rutjes-97b5b08/">
-									<LinkedInIcon size={22} className="icon" />
+									<FaLinkedinIn size={22} className="icon" />
 								</a>
 								<a href="https://github.com/IjzerenHein">
-									<GithubIcon size={22} className="icon" />
+									<FaGithub size={22} className="icon" />
 								</a>
 								<a href="mailto:hrutjes@gmail.com">
-									<EnvelopeIcon size={22} className="icon" />
+									<FaEnvelope size={22} className="icon" />
 								</a>
 							</div>
 						</Anime>
